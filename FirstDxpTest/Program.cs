@@ -23,7 +23,10 @@ namespace FirstDxpTest
             //Application.Run(new Form1());
             //Application.Run(new LoginForm());
             //Application.Run(new Test());
-            Application.Run(new Data());
+            //Application.Run(new Data());
+            //Application.Run(new GridControl());
+            //Application.Run(new GridView());
+            Application.Run(new ChartControl());
         }
     }
 }
