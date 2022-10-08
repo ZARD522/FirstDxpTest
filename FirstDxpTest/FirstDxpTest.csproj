@@ -109,11 +109,18 @@
     <Compile Include="ChartControl.Designer.cs">
       <DependentUpon>ChartControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="Dao.cs" />
     <Compile Include="Data.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Data.Designer.cs">
       <DependentUpon>Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dev_01.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dev_01.Designer.cs">
+      <DependentUpon>Dev_01.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -148,11 +155,20 @@
       <DependentUpon>Ribbon.cs</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.cs">
+      <DependentUpon>User.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="ChartControl.resx">
       <DependentUpon>ChartControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Data.resx">
       <DependentUpon>Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dev_01.resx">
+      <DependentUpon>Dev_01.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -178,6 +194,9 @@
     </Compile>
     <EmbeddedResource Include="Ribbon.resx">
       <DependentUpon>Ribbon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="app.config" />
     <None Include="packages.config" />
